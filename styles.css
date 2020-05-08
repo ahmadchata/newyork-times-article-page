@@ -115,3 +115,16 @@ article p{
 .fa a{
 	color: black;
 }
+
+/* fixed footer */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    bottom: 0;
+}
