@@ -88,3 +88,30 @@ figcaption span{
 	color: #67686b;
 	font-size: 12px;
 }
+
+/* Article section */
+
+article{
+	width: 45%;
+	margin: 0px auto;
+}
+article p{
+	font-family: times new roman;
+	font-size:  20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.date-social{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px auto;
+}
+
+.fa{
+	display: inline-flex;
+	padding-left: 20px;
+}
+.fa a{
+	color: black;
+}
