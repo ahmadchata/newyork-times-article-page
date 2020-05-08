@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* heading section */
 nav {
     width: 100%;
     display: inline-flex;
@@ -61,4 +62,29 @@ svg {
     padding: 11px 12px 11px 12px;
     margin-left: 5px;
     color: white;
+}
+
+/*  image header section */
+.img-header {
+  width: 70%;
+  margin: 100px auto;
+}
+
+.img-header > h1 {
+  width: 70%;
+  margin: 25px auto;
+}
+
+.Alan-Guth {
+  width: 100%;
+}
+
+figcaption {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin-right: 25%;
+}
+figcaption span{
+	color: #67686b;
+	font-size: 12px;
 }
