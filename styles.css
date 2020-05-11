@@ -14,10 +14,12 @@
 nav {
     width: 100%;
     margin: auto;
+    z-index: 1;
     display: inline-flex;
     justify-content: space-between;
     position: fixed;
     border-bottom: solid rgb(189, 187, 187) 1px;
+    box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
     padding: 4px 15px 0 15px;
     top: 0;
     left: 0;
@@ -144,10 +146,59 @@ article p{
 
 .image-container{
     position: relative;
-    display: grid; 
-    grid-gap: 10px;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
+    overflow: hidden;
+    width: 900px;
+    margin: auto;
+    display: grid;
+}
+
+.image-container img {
+    width: 900px;
+}
+
+div[class*="img-div"] {
+    width: 200px;
+    position: absolute;
+}
+
+.img-div-1 {
+    top: 200px;
+    left: 16px;
+}
+
+.img-div-2 {
+    top: 200px;
+    left: 230px;
+}
+
+.img-div-3 {
+    top: 200px;
+    right: 250px;
+}
+
+.img-div-4 {
+    top: 200px;
+    right: 15px;
+}
+
+.img-div-5 {
+    top: 550px;
+    left: 16px;
+}
+
+.img-div-6 {
+    top: 550px;
+    left: 230px;
+}
+
+.img-div-7 {
+    top: 550px;
+    right: 250px;
+}
+
+.img-div-8 {
+    top: 550px;
+    right: 15px;
 }
 
 /* fixed footer */
