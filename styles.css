@@ -127,7 +127,7 @@ article p{
     color: black;
 }
 #comments {
-    width: 350px;
+    width: 230px;
     height: 40px;
     color: white;
     font-size: 11px;
@@ -141,7 +141,7 @@ article p{
 
 .inflation-header{
     width: auto;
-    margin:0 auto;
+    margin:30px auto;
 }
 
 .image-container{
@@ -161,46 +161,97 @@ div[class*="img-div"] {
     position: absolute;
 }
 
-.img-div-1 {
-    top: 200px;
+.img-div-1,
+.img-div-2,
+.img-div-3,
+.img-div-4{
+    top: 200px;  
+}
+.img-div-1{
     left: 16px;
 }
 
 .img-div-2 {
-    top: 200px;
     left: 230px;
 }
 
 .img-div-3 {
-    top: 200px;
     right: 250px;
 }
 
 .img-div-4 {
-    top: 200px;
     right: 15px;
 }
 
+.img-div-5,
+.img-div-6,
+.img-div-7,
+.img-div-8{
+    top:550px;
+}
 .img-div-5 {
-    top: 550px;
     left: 16px;
 }
 
 .img-div-6 {
-    top: 550px;
     left: 230px;
 }
 
 .img-div-7 {
-    top: 550px;
     right: 250px;
 }
 
 .img-div-8 {
-    top: 550px;
     right: 15px;
 }
 
+/* Editor section */
+
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img{
+    align-items: left;
+}
+.go{
+    align-items: right;
+   float: right;
+}
+.footer-flex{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.sub-footer-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.sub-footer-flex span{
+    font-size: 14px;
+}
+.vl {
+  border-right: 0.1px solid grey;
+  height: auto;
+  padding-left: 30px;
+  margin-right: -45px;
+
+}
+li{
+    display: inline-flex;
+    font-size: 10px;
+    justify-content: space-between;
+    margin-left: 7px;
+}
 /* fixed footer */
 .container{
     width: 80%;
