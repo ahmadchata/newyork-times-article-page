@@ -13,9 +13,12 @@ nav {
     position: fixed;
     border-bottom: solid rgb(189, 187, 187) 1px;
     padding: 4px 15px 0 15px;
+<<<<<<< HEAD
     top: 0;
     left: 0;
     background-color: white;
+=======
+>>>>>>> e68700a850a59a496a298422d181ab94f1efaba6
 }
 
 svg {
@@ -129,4 +132,8 @@ article p{
     position: fixed;        
     background: #333;
     padding: 10px 0;
+<<<<<<< HEAD
+=======
+    bottom: 0;
+>>>>>>> e68700a850a59a496a298422d181ab94f1efaba6
 }
