@@ -124,6 +124,17 @@ article p{
 .fa a{
     color: black;
 }
+#comments {
+    width: 350px;
+    height: 40px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    background: #567b95;
+    border: solid #4d6d85 1px;
+    border-radius: 3px;
+    padding: 11px 12px 11px 12px;
+}
 /* inflation section */
 
 .inflation-header{
@@ -149,6 +160,5 @@ article p{
     position: fixed;        
     background:white;
     padding: 10px 0;
-    bottom: 0;
 
 }
