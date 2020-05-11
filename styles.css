@@ -118,6 +118,24 @@ article p{
 .fa a{
     color: black;
 }
+/* inflation section */
+
+.inflation-header{
+    width:65%;
+    margin:0 auto;
+}
+
+.full-img-div{
+    display: grid;
+    
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.img-div-1{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+}
 
 /* fixed footer */
 .container{
