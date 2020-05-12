@@ -53,13 +53,13 @@ For the: [Github-link](https://github.com/ahmadchata/newyork-times-article-page/
 
 ## Ahmad Chata
 
-Github - @ahmadchata
-Twitter - @ahmadchata
-Linkedin - https://www.linkedin.com/in/ahmad-chata-957b9b51/
+- Github - @ahmadchata
+- Twitter - @ahmadchata
+- Linkedin - https://www.linkedin.com/in/ahmad-chata-957b9b51/
 
 ## Dipesh Kumar
 
-Github: @Dipeshtwis
-Twitter: @97deepeshkumar
-Linkedin: https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
+- Github: @Dipeshtwis
+- Twitter: @97deepeshkumar
+- Linkedin: https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
 
