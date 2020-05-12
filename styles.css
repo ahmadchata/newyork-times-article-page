@@ -206,6 +206,28 @@ div[class*="img-div"] {
 }
 
 /* Editor section */
+.cosmo { grid-area: cosmo; }
+.satellite { grid-area: satellite; }
+.sun { grid-area: sun; }
+.rocket { grid-area: rocket; }
+.orbit { grid-area: orbit; }
+.universe { grid-area: universe; }
+.popular { grid-area: popular; }
+
+.asidecontainer {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-areas: 
+    'cosmo satellite sun popular'
+    'rocket orbit universe popular';
+    grid-gap: 8px;
+}
+
+.asidecontainer img {
+    width: 217px;
+    height: 145px;
+}
 
 
 /* footer */
@@ -222,13 +244,13 @@ footer img{
     align-items: right;
    float: right;
 }
-.footer-flex{
+.footer-flex {
     display: flex;
-    width: 1000px;
+    width: 1300px;
     margin: auto;
     margin-bottom: 20px;
 }
-.sub-footer-flex{
+.sub-footer-flex {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -236,7 +258,7 @@ footer img{
     margin-left: 50px;
     margin-top: 20px;
 }
-.sub-footer-flex span{
+.sub-footer-flex span {
     font-size: 14px;
 }
 .vl {
