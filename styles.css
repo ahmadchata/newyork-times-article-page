@@ -96,37 +96,42 @@ figcaption {
   font-size: 14px;
   margin-right: 25%;
 }
-figcaption span{
+
+figcaption span {
     color: #67686b;
     font-size: 12px;
 }
 
 /* Article section */
 
-article{
+article {
     width: 45%;
-    margin: 0px auto;
+    margin: 50px auto;
 }
-article p{
+
+article p {
     font-family: times new roman;
     font-size:  20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.date-social{
+
+.date-social {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px auto;
 }
 
-.fa{
+.fa {
     display: inline-flex;
     padding-left: 20px;
 }
-.fa a{
+
+.fa a {
     color: black;
 }
+
 #comments {
     width: 230px;
     height: 40px;
@@ -140,17 +145,16 @@ article p{
 }
 /* inflation section */
 
-.inflation-header{
-    width: auto;
+.inflation-header {
+    width: 900px;
     margin:30px auto;
 }
 
-.image-container{
+.image-container {
     position: relative;
     overflow: hidden;
     width: 900px;
     margin: auto;
-    display: grid;
 }
 
 .image-container img {
@@ -168,7 +172,8 @@ div[class*="img-div"] {
 .img-div-4{
     top: 200px;  
 }
-.img-div-1{
+
+.img-div-1 {
     left: 16px;
 }
 
@@ -190,6 +195,7 @@ div[class*="img-div"] {
 .img-div-8{
     top:550px;
 }
+
 .img-div-5 {
     left: 16px;
 }
@@ -238,39 +244,47 @@ hr { grid-area: hr; }
     'distance richard quaran popular';
     margin-top: 10px;
     grid-gap: 15px;
+    margin-bottom: 15px;
     text-align: left;
-    }
+}
 
-.asidecontainer figcaption {
-    margin: 0;
+.asidecontainer span {
+    display: block;
     margin-bottom: 10px;
     color: #67686b;
-    text-align: end;
-    font-size: 8px;
+    text-align: right;
+    font-size: 11px;
 }
 
 .asidecontainer img {
     width: 100%;
     height: 180px;
 }
-.asidecontainer div h3 a{
+
+.asidecontainer div h3 a {
     color: black;
 }
-.asidecontainer div h3 a:hover{
+
+.asidecontainer div h3 a:hover {
     color: grey;
 }
-.asidecontainer div h4 a{
+
+.asidecontainer div h4 a {
     color: black;
 }
+
 .asidecontainer div h4 a:hover{
     color: grey;
 }
+
 .popular{
     border-top: 1px solid grey;
 }
+
 .title h3{
     padding-top: 10px;
 }
+
 .popular > h3 {
     border-bottom: 1px solid rgb(226, 226, 226);
     padding-bottom: 15px;
@@ -286,82 +300,96 @@ hr { grid-area: hr; }
 .side h4 {
     font-weight: normal;
 }
-.side h4 a{
+
+.side h4 a {
     color:black;
 }
 
 /* footer */
 
-footer{
+footer {
     width: 100%;
     margin:0 auto;
     border-top: 4px double grey;
     border-bottom: 1px solid grey;
 }
 
-footer img{
+footer img {
     align-items: left;
     width: 150px;
 }
-.go{
+
+.go {
    float: right;
    padding-top: 10px;
 }
+
 .footer-flex {
     display: flex;
 }
+
 .sub-footer-flex {
     flex-grow: 1;
     padding-left: 10px;
     align-items: left;
     margin-top: 10px;
 }
-.sub-footer-flex ul{
+
+.sub-footer-flex ul {
     list-style: none;
     margin-top: 8px;
 }
+
 .sub-footer-flex ul li {
     font-size: 12px;
     margin-top: 5px;
 }
-.sub-footer-flex:first-child{
+
+.sub-footer-flex:first-child {
     padding-left: 0px;
 }
-.sub-footer-flex:last-child{
+
+.sub-footer-flex:last-child {
     border-left: 1px solid grey;
     padding-left: 10px;
 }
 
-.footer-descr{
+.footer-descr {
     border-top: 1px solid grey;
     text-align: center;
     margin-top: 14px;
     margin-bottom: 70px;
 }
+
 .footer-descr ul{
     padding-top: 10px;
 }
-.footer-descr ul li{
+
+.footer-descr ul li {
     display: inline-flex;
     font-size: 10px;
     padding-left: 7px;
     margin-top: 5px;
 }
-.footer-descr ul li a{
+
+.footer-descr ul li a {
     color:black;
 }
-.sub-footer-flex ul li a{
+.sub-footer-flex ul li a {
     color:black;
 }
-.footer-descr ul li a:hover{
+
+.footer-descr ul li a:hover {
     text-decoration: underline;
 }
-.sub-footer-flex ul li a:hover{
+
+.sub-footer-flex ul li a:hover {
     text-decoration: underline;
 }
+
 /* fixed footer */
 
-.fixed-footer{
+.fixed-footer {
     border-top: 1px solid black;
     width: 100%;
     position: fixed;        
@@ -371,16 +399,20 @@ footer img{
     height:50px;
     text-align: center;
 }
-.fixed-footer p{
+
+.fixed-footer p {
     display: inline-block;
     text-align: center;
 }
-.fixed-footer p a{
+
+.fixed-footer p a {
     color: black;
 }
-.expand{
+
+.expand {
     float: right;
 }
-.expand a{
+
+.expand a {
     color: black;
 }
