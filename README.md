@@ -62,4 +62,3 @@ For the: [Github-link](https://github.com/ahmadchata/newyork-times-article-page/
 - Github: @Dipeshtwis
 - Twitter: @97deepeshkumar
 - Linkedin: https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
-
