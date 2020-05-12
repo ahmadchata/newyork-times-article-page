@@ -7,36 +7,36 @@
 }
 
 .container {
-  width: 1300px;
   margin: auto;
+  width: 1300px;
 }
 
 /* heading section */
 nav {
-  width: 100%;
-  margin: auto;
-  z-index: 1;
-  display: inline-flex;
-  justify-content: space-between;
-  position: fixed;
+  background-color: white;
   border-bottom: solid rgb(189, 187, 187) 1px;
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
-  padding: 4px 15px 0 15px;
-  top: 0;
+  display: inline-flex;
+  justify-content: space-between;
   left: 0;
-  background-color: white;
+  margin: auto;
+  padding: 4px 15px 0 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 svg {
-  width: 225px;
   height: 31px;
+  width: 225px;
 }
 
-#logo {
+.logo {
   text-align: center;
 }
 
-#left_icons i {
+.left_icons i {
   float: left;
   margin-right: 8px;
   padding: 6px 9px 8px;
@@ -48,37 +48,37 @@ figcaption span {
 }
 
 .asidecontainer span {
-  display: block;
-  margin-bottom: 10px;
   color: #67686b;
-  text-align: right;
+  display: block;
   font-size: 11px;
+  margin-bottom: 10px;
+  text-align: right;
 }
 
-#left_icons span {
-  vertical-align: middle;
+.left_icons span {
   font-size: 13px;
-  text-transform: uppercase;
   font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
 
-#right_icons {
+.right_icons {
   float: right;
 }
 
-#subscribe {
-  width: 125px;
-  height: 32px;
-  color: white;
-  font-size: 11px;
-  font-weight: bold;
+.subscribe {
   background: #567b95;
   border: solid #4d6d85 1px;
   border-radius: 3px;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  height: 32px;
   padding: 11px 12px 11px 12px;
+  width: 125px;
 }
 
-#login {
+.login {
   width: 65px;
   height: 32px;
   border: solid #4d6d85 1px;
