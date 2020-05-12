@@ -206,38 +206,75 @@ div[class*="img-div"] {
 }
 
 /* Editor section */
+.footercontainer {
+    width: 1200px;
+    margin: auto;
+}
+
+.title { grid-area: title; }
+.title2 { grid-area: title2; }
 .cosmo { grid-area: cosmo; }
 .satellite { grid-area: satellite; }
 .sun { grid-area: sun; }
 .rocket { grid-area: rocket; }
 .orbit { grid-area: orbit; }
 .universe { grid-area: universe; }
+.distancing { grid-area: distance; }
+.richard { grid-area: richard; }
 .popular { grid-area: popular; }
+.quaran { grid-area: quaran; }
+hr { grid-area: hr; }
 
 .asidecontainer {
     display: grid;
-    max-width: 1000px;
-    margin: auto;
-    grid-template-areas: 
+    grid-template-areas:
+    'title title title popular'
     'cosmo satellite sun popular'
-    'rocket orbit universe popular';
-    grid-gap: 8px;
+    'rocket orbit universe popular'
+    'hr hr hr popular'
+    'title2 title2 title2 popular'
+    'distance richard quaran popular';
+    margin-top: 10px;
+    grid-gap: 15px;
+    text-align: left;
+}
+
+.asidecontainer figcaption {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #67686b;
+    text-align: end;
+    font-size: 8px;
 }
 
 .asidecontainer img {
-    width: 217px;
-    height: 145px;
+    width: 100%;
+    height: 180px;
 }
 
+.popular > h3 {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+
+.side {
+    padding: 15px 0;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.side h4 {
+    font-weight: normal;
+}
 
 /* footer */
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-footer img{
+footer img {
     align-items: left;
 }
 .go{
@@ -246,7 +283,7 @@ footer img{
 }
 .footer-flex {
     display: flex;
-    width: 1300px;
+    width: 1600px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -254,7 +291,6 @@ footer img{
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: left;
     margin-left: 50px;
     margin-top: 20px;
 }
