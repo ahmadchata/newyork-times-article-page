@@ -315,7 +315,7 @@ footer {
 }
 
 footer img {
-    align-items: left;
+    align-items: flex-start;
     width: 150px;
 }
 
@@ -331,7 +331,7 @@ footer img {
 .sub-footer-flex {
     flex-grow: 1;
     padding-left: 10px;
-    align-items: left;
+    align-items: flex-start;
     margin-top: 10px;
 }
 
