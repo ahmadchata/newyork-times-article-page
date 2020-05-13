@@ -16,6 +16,11 @@ a {
   color: black;
 }
 
+article p a {
+  color: blue;
+  text-decoration: underline;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -135,11 +140,6 @@ article p {
   font-size: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
-}
-
-article p a {
-  color: blue;
-  text-decoration: underline;
 }
 
 article p a:hover {
