@@ -6,6 +6,11 @@ This project is the clone version of newyork-times-article-page. In the process 
 
 Original Design link : [nytimes.com](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
+
+# Live Link:
+
+  [Live-link](https://raw.githack.com/ahmadchata/newyork-times-article-page/feature-homepage/index.html)
+  
 # Project Design
 
 Project Design Screenshot : ![Project Design](img/screenshot-nytimes.png)
