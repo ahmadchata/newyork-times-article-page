@@ -1,4 +1,5 @@
 /* reset */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +12,17 @@
   width: 1300px;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 /* heading section */
+
 nav {
   background-color: white;
   border-bottom: solid rgb(189, 187, 187) 1px;
@@ -91,13 +102,15 @@ figcaption span {
   width: 65px;
 }
 
+
 /*  image header section */
+
 .img-header {
   margin: 100px auto;
   width: 70%;
 }
 
-.img-header > h1 {
+.img-header>h1 {
   margin: 25px auto;
   width: 70%;
 }
@@ -112,7 +125,9 @@ figcaption {
   margin-right: 25%;
 }
 
+
 /* Article section */
+
 article {
   margin: 50px auto;
   width: 45%;
@@ -122,23 +137,28 @@ article p {
   font-family: Times, serif, 'Times New Roman';
   font-size: 20px;
   margin-bottom: 20px;
-  margin-top: 20px; 
+  margin-top: 20px;
+}
+
+article p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+article p a:hover {
+  text-decoration: none;
 }
 
 .date-social {
   align-items: center;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   margin: 15px auto;
 }
 
 .fa {
   display: inline-flex;
   padding-left: 20px;
-}
-
-.fa a {
-  color: black;
 }
 
 #comments {
@@ -148,12 +168,14 @@ article p {
   color: white;
   font-size: 11px;
   font-weight: bold;
-  height: 40px; 
+  height: 40px;
   padding: 11px 12px 11px 12px;
   width: 230px;
 }
 
+
 /* inflation section */
+
 .inflation-header {
   margin: 30px auto;
   width: 900px;
@@ -235,32 +257,59 @@ div[class*="img-div"] {
   border-top: 2px solid black;
   grid-area: title;
 }
-.title2 { grid-area: title2; }
-.cosmo { grid-area: cosmo; }
-.satellite { grid-area: satellite; }
-.sun { grid-area: sun; }
-.rocket { grid-area: rocket; }
-.orbit { grid-area: orbit; }
-.universe { grid-area: universe; }
-.distancing { grid-area: distance; }
-.richard { grid-area: richard; }
+
+.title2 {
+  grid-area: title2;
+}
+
+.cosmo {
+  grid-area: cosmo;
+}
+
+.satellite {
+  grid-area: satellite;
+}
+
+.sun {
+  grid-area: sun;
+}
+
+.rocket {
+  grid-area: rocket;
+}
+
+.orbit {
+  grid-area: orbit;
+}
+
+.universe {
+  grid-area: universe;
+}
+
+.distancing {
+  grid-area: distance;
+}
+
+.richard {
+  grid-area: richard;
+}
 
 .popular {
   grid-area: popular;
   border-top: 1px solid grey;
 }
-.quaran { grid-area: quaran; }
-hr { grid-area: hr; }
+
+.quaran {
+  grid-area: quaran;
+}
+
+hr {
+  grid-area: hr;
+}
 
 .asidecontainer {
   display: grid;
-  grid-template-areas:
-    'title title title popular'
-    'cosmo satellite sun popular'
-    'rocket orbit universe popular'
-    'hr hr hr popular'
-    'title2 title2 title2 popular'
-    'distance richard quaran popular';
+  grid-template-areas: 'title title title popular' 'cosmo satellite sun popular' 'rocket orbit universe popular' 'hr hr hr popular' 'title2 title2 title2 popular' 'distance richard quaran popular';
   margin-top: 10px;
   grid-gap: 15px;
   margin-bottom: 15px;
@@ -272,39 +321,13 @@ hr { grid-area: hr; }
   width: 100%;
 }
 
-.expand a {
-  color: black;
-}
-
-.fixed-footer p a {
-  color: black;
-}
-
-.side h4 a {
-  color: black;
-}
-
-.asidecontainer div h3 a {
-  color: black;
-}
-
-.asidecontainer div h4 a {
-  color: black;
-}
-
-.footer-descr ul li a {
-  color: black;
-}
-
-.sub-footer-flex ul li a {
-  color: black;
-}
-
 .asidecontainer div h3 a:hover {
+  text-decoration: none;
   color: grey;
 }
 
 .asidecontainer div h4 a:hover {
+  text-decoration: none;
   color: grey;
 }
 
@@ -312,7 +335,7 @@ hr { grid-area: hr; }
   padding-top: 10px;
 }
 
-.popular > h3 {
+.popular>h3 {
   border-bottom: 1px solid rgb(226, 226, 226);
   padding-bottom: 15px;
   padding-top: 10px;
@@ -322,7 +345,6 @@ hr { grid-area: hr; }
   border-bottom: 1px solid rgb(226, 226, 226);
   font-size: 17px;
   padding: 15px 0;
-  
 }
 
 .side h4 {
@@ -389,14 +411,6 @@ footer {
   padding-left: 7px;
 }
 
-.footer-descr ul li a:hover {
-  text-decoration: underline;
-}
-
-.sub-footer-flex ul li a:hover {
-  text-decoration: underline;
-}
-
 .fixed-footer {
   background: white;
   border-top: 1px solid black;
@@ -411,6 +425,10 @@ footer {
 .fixed-footer p {
   display: inline-block;
   text-align: center;
+}
+
+.fixed-footer p a:hover {
+  text-decoration: none;
 }
 
 .expand {
