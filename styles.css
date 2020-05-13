@@ -16,6 +16,9 @@ a {
   color: black;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 
 /* heading section */
 
@@ -98,7 +101,6 @@ figcaption span {
   width: 65px;
 }
 
-
 /*  image header section */
 
 .img-header {
@@ -106,7 +108,7 @@ figcaption span {
   width: 70%;
 }
 
-.img-header>h1 {
+.img-header > h1 {
   margin: 25px auto;
   width: 70%;
 }
@@ -120,7 +122,6 @@ figcaption {
   font-size: 14px;
   margin-right: 25%;
 }
-
 
 /* Article section */
 
@@ -166,7 +167,6 @@ article p a:hover {
   padding: 11px 12px 11px 12px;
   width: 230px;
 }
-
 
 /* inflation section */
 
@@ -330,7 +330,7 @@ hr {
   padding: 15px 0;
 }
 
-.side>h4 {
+.side > h4 {
   font-weight: lighter;
 }
 
@@ -417,6 +417,3 @@ footer {
   float: right;
 }
 
-a:hover {
-  text-decoration: underline;
-}
