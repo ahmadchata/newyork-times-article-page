@@ -1,0 +1,419 @@
+/* reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  width: 1300px;
+}
+
+a {
+  color: black;
+}
+
+article p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* heading section */
+
+nav {
+  background-color: white;
+  border-bottom: solid rgb(189, 187, 187) 1px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
+  display: inline-flex;
+  justify-content: space-between;
+  left: 0;
+  margin: auto;
+  padding: 4px 15px 0 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+svg {
+  height: 31px;
+  width: 225px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.left_icons i {
+  float: left;
+  margin-right: 8px;
+  padding: 6px 9px 8px;
+}
+
+figcaption span {
+  color: #67686b;
+  font-size: 12px;
+}
+
+.asidecontainer span {
+  color: #67686b;
+  display: block;
+  font-size: 11px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.left_icons span {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.right_icons {
+  float: right;
+}
+
+.subscribe {
+  background: #567b95;
+  border: solid #4d6d85 1px;
+  border-radius: 3px;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  height: 32px;
+  padding: 11px 12px 11px 12px;
+  width: 125px;
+}
+
+.login {
+  background: #567b95;
+  border: solid #4d6d85 1px;
+  border-radius: 3px;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  height: 32px;
+  margin-left: 5px;
+  padding: 11px 12px 11px 12px;
+  width: 65px;
+}
+
+/*  image header section */
+
+.img-header {
+  margin: 100px auto;
+  width: 70%;
+}
+
+.img-header > h1 {
+  margin: 25px auto;
+  width: 70%;
+}
+
+.Alan-Guth {
+  width: 100%;
+}
+
+figcaption {
+  font-family: Geneva, sans-serif, Tahoma, Verdana;
+  font-size: 14px;
+  margin-right: 25%;
+}
+
+/* Article section */
+
+article {
+  margin: 50px auto;
+  width: 45%;
+}
+
+article p {
+  font-family: Times, serif, 'Times New Roman';
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+article p a:hover {
+  text-decoration: none;
+}
+
+.date-social {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.fa {
+  display: inline-flex;
+  padding-left: 20px;
+}
+
+.comments {
+  background: #567b95;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  height: 40px;
+  padding: 11px 12px 11px 12px;
+  width: 230px;
+}
+
+/* inflation section */
+
+.inflation-header {
+  margin: 30px auto;
+  width: 900px;
+}
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  width: 900px;
+}
+
+footer img {
+  align-items: flex-start;
+  width: 150px;
+}
+
+.image-container img {
+  width: 900px;
+}
+
+div[class*="img-div"] {
+  position: absolute;
+  width: 200px;
+}
+
+.img-div-1,
+.img-div-2,
+.img-div-3,
+.img-div-4 {
+  top: 200px;
+}
+
+.img-div-1 {
+  left: 16px;
+}
+
+.img-div-2 {
+  left: 230px;
+}
+
+.img-div-3 {
+  right: 250px;
+}
+
+.img-div-4 {
+  right: 15px;
+}
+
+.img-div-5,
+.img-div-6,
+.img-div-7,
+.img-div-8 {
+  top: 550px;
+}
+
+.img-div-5 {
+  left: 16px;
+}
+
+.img-div-6 {
+  left: 230px;
+}
+
+.img-div-7 {
+  right: 250px;
+}
+
+.img-div-8 {
+  right: 15px;
+}
+
+.footercontainer {
+  margin: auto;
+  width: 1200px;
+}
+
+.title {
+  border-top: 2px solid black;
+  grid-area: title;
+  padding-top: 10px;
+}
+
+.title2 {
+  grid-area: title2;
+}
+
+.cosmo {
+  grid-area: cosmo;
+}
+
+.satellite {
+  grid-area: satellite;
+}
+
+.sun {
+  grid-area: sun;
+}
+
+.rocket {
+  grid-area: rocket;
+}
+
+.orbit {
+  grid-area: orbit;
+}
+
+.universe {
+  grid-area: universe;
+}
+
+.distancing {
+  grid-area: distance;
+}
+
+.richard {
+  grid-area: richard;
+}
+
+.popular {
+  grid-area: popular;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.quaran {
+  grid-area: quaran;
+}
+
+hr {
+  grid-area: hr;
+}
+
+.asidecontainer {
+  display: grid;
+  grid-template-areas: 'title title title popular' 'cosmo satellite sun popular' 'rocket orbit universe popular' 'hr hr hr popular' 'title2 title2 title2 popular' 'distance richard quaran popular';
+  margin-top: 10px;
+  grid-gap: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.asidecontainer img {
+  height: 180px;
+  width: 100%;
+}
+
+.asidecontainer div a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.side {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-size: 17px;
+  padding: 15px 0;
+}
+
+.side > h4 {
+  font-weight: lighter;
+}
+
+footer {
+  border-bottom: 1px solid grey;
+  border-top: 4px double grey;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.go {
+  float: right;
+  padding-top: 10px;
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.sub-footer-flex {
+  align-items: flex-start;
+  flex-grow: 1;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.sub-footer-flex ul {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.sub-footer-flex ul li {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.sub-footer-flex:first-child {
+  padding-left: 0;
+}
+
+.sub-footer-flex:last-child {
+  border-left: 1px solid grey;
+  padding-left: 10px;
+}
+
+.footer-descr {
+  border-top: 1px solid grey;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 14px;
+}
+
+.footer-descr ul {
+  padding-top: 10px;
+}
+
+.footer-descr ul li {
+  display: inline-flex;
+  font-size: 10px;
+  margin-top: 5px;
+  padding-left: 7px;
+}
+
+.fixed-footer {
+  background: white;
+  border-top: 1px solid black;
+  bottom: 0;
+  padding: 10px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.fixed-footer p {
+  display: inline-block;
+  text-align: center;
+}
+
+.fixed-footer p a:hover {
+  text-decoration: none;
+}
+
+.expand {
+  float: right;
+}
+
