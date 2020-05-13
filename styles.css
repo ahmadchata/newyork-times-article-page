@@ -110,7 +110,7 @@ figcaption span {
   width: 70%;
 }
 
-.img-header>h1 {
+.img-header > h1 {
   margin: 25px auto;
   width: 70%;
 }
@@ -161,10 +161,8 @@ article p a:hover {
   padding-left: 20px;
 }
 
-#comments {
+.comments {
   background: #567b95;
-  border: solid #4d6d85 1px;
-  border-radius: 3px;
   color: white;
   font-size: 11px;
   font-weight: bold;
@@ -321,21 +319,21 @@ hr {
   width: 100%;
 }
 
-.asidecontainer div h3 a:hover {
+.asidecontainer div a:hover {
   text-decoration: none;
   color: grey;
 }
 
-.asidecontainer div h4 a:hover {
+.asidecontainer div a:hover {
   text-decoration: none;
   color: grey;
 }
 
-.title h3 {
+.title {
   padding-top: 10px;
 }
 
-.popular>h3 {
+.popular {
   border-bottom: 1px solid rgb(226, 226, 226);
   padding-bottom: 15px;
   padding-top: 10px;
@@ -347,8 +345,8 @@ hr {
   padding: 15px 0;
 }
 
-.side h4 {
-  font-weight: normal;
+.side > h4 {
+  font-weight: lighter;
 }
 
 footer {
@@ -417,7 +415,6 @@ footer {
   bottom: 0;
   padding: 10px 0;
   position: fixed;
-  height: 50px;
   text-align: center;
   width: 100%;
 }
