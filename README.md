@@ -56,14 +56,27 @@ For the: [Github-link](https://github.com/ahmadchata/newyork-times-article-page/
 
 # Authors
 
-## Ahmad Chata
+👤 **Ahmad Chata**
 
-- Github - @ahmadchata
-- Twitter - @ahmadchata
-- Linkedin - https://www.linkedin.com/in/ahmad-chata-957b9b51/
+- Github: [@ahmadchata](https://github.com/ahmadchata)
+- Twitter: [@ahmadchata](https://twitter.com/ahmadchata)
+- Linkedin: [ahmadchata](https://www.linkedin.com/in/ahmad-chata-957b9b51/)
 
-## Dipesh Kumar
+👤 **Dipesh Kumar**
 
-- Github: @Dipeshtwis
-- Twitter: @97deepeshkumar
-- Linkedin: https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
+- Github: [@Dipeshtwis](https://github.com/Dipeshtwis)
+- Twitter: [@97deepeshkumar](https://twitter.com/97deepeshkumar)
+- Linkedin: [dipeshtwis](https://www.linkedin.com/in/dipeshtwis/)
+
+## Show Support
+
+- Give a ⭐ if you like this project.
+
+## Acknowledgements
+
+- Odin project
+- Microverse
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
