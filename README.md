@@ -67,3 +67,16 @@ For the: [Github-link](https://github.com/ahmadchata/newyork-times-article-page/
 - Github: @Dipeshtwis
 - Twitter: @97deepeshkumar
 - Linkedin: https://www.linkedin.com/in/dipesh-kumar-b6ab88134/
+
+## Show Support
+
+- Give a ⭐ if you like this project.
+
+## Acknowledgements
+
+- Odin project
+- Microverse
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
